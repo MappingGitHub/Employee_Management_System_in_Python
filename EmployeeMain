@@ -1,0 +1,83 @@
+#Employee_class
+
+#The Employee class holds data about an Employee.
+
+class EmployeeClass:
+
+    # The _ _init_ _ method initializes the attributes.
+    def __init__(self,Name,Employee_ID,Department,Title,Salary):
+
+        self.__AddName=Name
+        self.__AddEmployee_ID=Employee_ID
+        self.__AddDepartment=Department
+        self.__AddTitle=Title
+        self.__AddSalary=Salary
+
+
+    # The set_AddName method accept an argument for
+    # the employee's name.
+    def set_AddName(self,Name):
+        self.__AddName=Name
+
+      
+
+    # The set_AddEmployee_ID method accept an argument for
+    # the employee's badge number.        
+    def set_AddEmployee_ID(self,Employee_ID):
+        self.__AddEmployee_ID=Employee_ID
+      
+
+
+    # The set_AddDepartment method accept an argument for
+    # the employee's work location.
+    def set_AddDepartment(self,Department):
+        self.__AddDepartment=Department    
+      
+
+
+    # The set_AddTitle method accept an argument for
+    # the employee's job position.
+    def set_AddTitle(self,Title):
+        self.__AddTitle=Title      
+
+
+    # The set_AddSalary method accept an argument for
+    # the employee's annual income.
+    def set_AddSalary(self,Salary):
+        self.__AddSalary=Salary
+
+#*************************************************************        
+
+    # The get_AddName method returns employee name.  
+    def get_AddName(self):
+        return self.__AddName
+
+
+    
+        # The get_AddEmployee_ID method returns employee's badge number.  
+    def get_AddEmployee_ID(self):
+        return self.__AddEmployee_ID
+
+
+    
+        # The get_AddDepartment  method returns employee's work location. 
+    def get_AddDepartment (self):
+        return self.__AddDepartment 
+
+
+    
+        # The get_AddTitle method returns employee's job position.  
+    def get_AddTitle(self):
+        return self.__AddTitle
+
+
+    
+        # The get_AddSalary method returns employee's annual income.  
+    def get_AddSalary(self):
+        return self.__AddSalary
+    
+#*************************************************************          
+
+
+
+        
